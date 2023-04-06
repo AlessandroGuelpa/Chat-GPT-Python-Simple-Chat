@@ -2,7 +2,7 @@ import os
 import openai
 
 while True:
-  openai.api_key = "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"
+  openai.api_key = "YOUR API KEY"
   sentence = "Scrivi una descrizione per ";
   t_input = input("Nome prodotto:")
   response = openai.Completion.create(
